@@ -33,5 +33,5 @@ obj.getData()
 newObj = Constructor(5)
 
 newObj.attr = 10
-
+print obj.__dict__
 print ((newObj.real, newObj.imag, newObj.attr))

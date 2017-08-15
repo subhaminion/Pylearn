@@ -4,7 +4,7 @@ def search(arr, n, x):
 			tosend = ""+str(x)+"  is present at index "+ str(i)+""
 			return tosend
 
-	return 'Sorry we coudn\' find your value'
+	return 'Sorry we coudn\'t find your value'
 
 arrr = [1, 2, 3, 4, 5, 8]
 x = 4
