@@ -22,7 +22,13 @@ def isSubset(arr1, arr2):
 			else:
 				return False
 
-arr1 = [1,6,3]
-arr2 = [4,5,1,6,3,6]
+arr1 = [11, 1, 13, 21, 3, 7]
+arr2 = [11, 3, 7, 1]
 
+print 'Generating results form the normal solution'
 print isSubset(arr1, arr2)
+
+hashedArr = map(hash, arr1)
+# for y in xrange(0,len(arr1)):
+# 	hashedArr[y] = arr1[y]
+print hashedArr
